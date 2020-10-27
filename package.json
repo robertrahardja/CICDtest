@@ -1,0 +1,27 @@
+{
+  "name": "CICDtest",
+  "version": "1.0.0",
+  "description": "testing CI/CD with github",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertrahardja/CICDtest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertrahardja/CICDtest/issues"
+  },
+  "homepage": "https://github.com/robertrahardja/CICDtest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.0",
+    "supertest": "^5.0.0"
+  }
+}
